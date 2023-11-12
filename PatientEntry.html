@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unity Hospital | Registration</title>
+
+    <!-- Web Fonts -->
+    <link
+      rel="stylesheet"
+      href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin"
+    />
+
+    <!-- CSS Global Compulsory -->
+    <link
+      rel="stylesheet"
+      href="assets/plugins/bootstrap/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- CSS Header and Footer -->
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="assets/plugins/line-icons-pro/styles.css" />
+    <link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css" />
+    <link
+      rel="stylesheet"
+      href="assets/plugins/font-awesome/css/font-awesome.min.css"
+    />
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!--=== Header v1 ===-->
+      <div class="header-v1">
+        <!-- Topbar -->
+        <div class="topbar-v1">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="list-inline top-v1-contacts">
+                  <li>
+                    <i class="fa fa-envelope"></i> Email:
+                    unityhospital@gmail.com
+                  </li>
+                  <li><i class="fa fa-phone"></i> Contact no : 88666 00555</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- End Topbar -->
+
+       <!-- Navbar -->
+	   <div class="navbar mega-menu" role="navigation">
+		<div class="container">
+		  <!-- Brand and toggle get grouped for better mobile display -->
+		  <div class="res-container">
+			<button
+			  type="button"
+			  class="navbar-toggle"
+			  data-toggle="collapse"
+			  data-target=".navbar-responsive-collapse"
+			>
+			  <span class="sr-only">Toggle navigation</span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+
+			<div class="navbar-brand">
+			  <a href="index.html">
+				<img src="assets/img/logo/unity_white.jpg" alt="Logo" />
+			  </a>
+			</div>
+		  </div>
+		  <!--/end responsive container-->
+
+		  <!-- Collect the nav links, forms, and other content for toggling -->
+		  <div class="collapse navbar-collapse navbar-responsive-collapse">
+			<div class="res-container">
+			  <ul class="nav navbar-nav">
+				<!-- Collect the nav links, forms, and other content for toggling -->
+
+				<!-- Home  -->
+				<li class="mega-menu-fullwidth">
+				  <a href="index.html"> HOME </a>
+				</li>
+				<!-- End Home-->
+
+				<!-- About Us -->
+				<li class="mega-menu-fullwidth">
+				  <a href="about.html"> ABOUT US </a>
+				</li>
+				<!-- End About us -->
+
+				<!-- staffinformation -->
+				<li class="mega-menu-fullwidth">
+				  <a href="staffinformation.html"> STAFF INFORMATION </a>
+				</li>
+				<!-- End staffinformation -->
+
+				<!-- blood_bank -->
+				<li class="mega-menu-fullwidth">
+				  <a href="blood_bank.html"> BLOOD BANK </a>
+				</li>
+				<!-- End blood_bank -->
+
+				<!-- Billing -->
+				<li class="mega-menu-fullwidth">
+				  <a href="Billing.html"> BILLING </a>
+				</li>
+				<!-- End Billing -->
+
+				<!-- Contact Us -->
+				<li class="mega-menu-fullwidth">
+				  <a href="contact.html"> CONTACT US </a>
+				</li>
+				<!-- End Contact us -->
+
+				<!-- Patient Entry -->
+				<li class="mega-menu-fullwidth">
+				  <a href="PatientEntry.html"> PATIENT ENTRY </a>
+				</li>
+				<!-- Patient Entry -->
+
+				<!-- Patient Details -->
+				<li class="mega-menu-fullwidth">
+				  <a href="patient_details.html"> PATIENT DETAILS </a>
+				</li>
+				<!-- Patient Details -->
+
+				<!-- Pathology -->
+				<li class="mega-menu-fullwidth">
+				  <a href="pathology.html"> PATHOLOGY </a>
+				</li>
+				<!-- End Pathology -->
+			  </ul>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<!-- End Navbar -->
+      <!-- Image title -->
+
+      <div style="text-align: center; margin-top: 50px">
+        <h2>REGISTER</h2>
+      </div>
+      <div
+        style="
+          font-family: Arial, sans-serif;
+          max-width: 400px;
+          margin: 0 auto;
+          padding: 20px;
+          border: 1px solid #ccc;
+          background-color: #f9f9f9;
+        "
+      >
+        <h1>Patient Entry Form</h1>
+        <form id="patientForm">
+          <div style="margin-bottom: 20px">
+            <label for="name" style="font-weight: bold; display: block"
+              >Name:</label
+            >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              style="
+                width: 100%;
+                padding: 10px;
+                margin-top: 5px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+              "
+              required
+            />
+          </div>
+          <div style="margin-bottom: 20px">
+            <label for="dob" style="font-weight: bold; display: block"
+              >Date of Birth:</label
+            >
+            <input
+              type="date"
+              id="dob"
+              name="dob"
+              style="
+                width: 100%;
+                padding: 10px;
+                margin-top: 5px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+              "
+              required
+            />
+          </div>
+          <div style="margin-bottom: 20px">
+            <label for="email" style="font-weight: bold; display: block"
+              >Email:</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              style="
+                width: 100%;
+                padding: 10px;
+                margin-top: 5px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+              "
+              required
+            />
+          </div>
+          <div style="margin-bottom: 20px">
+            <label for="phone" style="font-weight: bold; display: block"
+              >Phone:</label
+            >
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              style="
+                width: 100%;
+                padding: 10px;
+                margin-top: 5px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+              "
+            />
+          </div>
+          <div style="margin-bottom: 20px">
+            <label for="address" style="font-weight: bold; display: block"
+              >Address:</label
+            >
+            <textarea
+              id="address"
+              name="address"
+              style="
+                width: 100%;
+                padding: 10px;
+                margin-top: 5px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+              "
+            ></textarea>
+          </div>
+          <div style="margin-bottom: 20px">
+            <label for="bloodGroup" style="font-weight: bold; display: block"
+              >Blood Group:</label
+            >
+            <select
+              id="bloodGroup"
+              name="bloodGroup"
+              style="
+                width: 100%;
+                padding: 10px;
+                margin-top: 5px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+              "
+            >
+              <option value="A+">A+</option>
+              <option value="A-">A-</option>
+              <option value="B+">B+</option>
+              <option value="B-">B-</option>
+              <option value="O+">O+</option>
+              <option value="O-">O-</option>
+              <option value="AB+">AB+</option>
+              <option value="AB-">AB-</option>
+            </select>
+          </div>
+          <div style="margin-bottom: 20px">
+            <label for="gender" style="font-weight: bold; display: block"
+              >Gender:</label
+            >
+            <input type="radio" id="male" name="gender" value="Male" />
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female" />
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="Other" />
+            <label for="other">Other</label>
+          </div>
+          <button
+            type="button"
+            onclick="submitForm()"
+            style="
+              background-color: #007bff;
+              color: white;
+              border: none;
+              padding: 10px 20px;
+              border-radius: 5px;
+              cursor: pointer;
+            "
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+
+      <script>
+        function submitForm() {
+          const name = document.getElementById("name").value;
+          const dob = document.getElementById("dob").value;
+          const email = document.getElementById("email").value;
+          const phone = document.getElementById("phone").value;
+          const address = document.getElementById("address").value;
+          const bloodGroup = document.getElementById("bloodGroup").value;
+          const genderOptions = document.getElementsByName("gender");
+          let gender = "";
+          for (let i = 0; i < genderOptions.length; i++) {
+            if (genderOptions[i].checked) {
+              gender = genderOptions[i].value;
+              break;
+            }
+          }
+
+          const emailRegex = /^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/;
+          if (!emailRegex.test(email)) {
+            alert("Please enter a valid email address.");
+            return;
+          }
+
+          const currentDate = new Date();
+          const selectedDate = new Date(dob);
+          if (selectedDate > currentDate) {
+            alert("Date of birth cannot be in the future.");
+            return;
+          }
+
+          // Generate a random registration number (for demonstration purposes)
+          const registrationNumber = generateRandomRegistrationNumber();
+
+          const patient = {
+            name: name,
+            dob: dob,
+            email: email,
+            phone: phone,
+            address: address,
+            bloodGroup: bloodGroup,
+            gender: gender,
+            registrationNumber: registrationNumber,
+          };
+
+          alert(
+            `Registration successful!\nYour Registration Number is: ${registrationNumber}`
+          );
+          console.log(patient);
+        }
+
+        function generateRandomRegistrationNumber() {
+          const min = 1000;
+          const max = 9999;
+          return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+      </script>
+
+      <!--=== Footer ===-->
+      <div class="footer-v1">
+        <div class="footer">
+          <div class="container">
+            <div class="row">
+              <!-- About -->
+              <div class="col-md-3" style="margin-bottom: 40px">
+                <a href="index.html"
+                  ><img
+                    id="logo-footer"
+                    class="footer-logo"
+                    src="assets/img/logo/unity_white.jpg"
+                    alt=""
+                /></a>
+                <p>
+                  At Unity Hospital, we are convinced that 'quality' and 'lowest
+                  cost' are not mutually exclusive when it comes to healthcare
+                  delivery.
+                </p>
+                <p>
+                  Our mission is to deliver high quality, affordable healthcare
+                  services to the broader population in India.
+                </p>
+              </div>
+              <!--/col-md-3-->
+              <!-- End About -->
+
+              <!-- Address -->
+              <div class="col-md-3 map-img" style="margin-bottom: 40px">
+                <div class="headline"><h2>Contact Us</h2></div>
+                <address class="" style="margin-bottom: 40px">
+                  Unity Hospital <br />
+                  Ahmedabad, IN <br />
+                  Phone: 886 666 00555 <br />
+                  Email: unityhospital@gmail.com
+                </address>
+              </div>
+              <!--/col-md-3-->
+              <!-- End Address -->
+            </div>
+          </div>
+        </div>
+        <!--/footer-->
+
+        <div class="copyright">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <p>
+                  2023 &copy; All Rights Reserved.
+                  <a href="privacy.html">Privacy Policy</a> |
+                  <a href="terms.html">Terms of Service</a>
+                </p>
+              </div>
+
+              <!-- Social Links -->
+              <div class="col-md-6">
+                <ul class="footer-socials list-inline">
+                  <li>
+                    <a
+                      href="http://www.facebook.com"
+                      class="tooltips"
+                      data-toggle="tooltip"
+                      data-placement="top"
+                      title=""
+                      data-original-title="Facebook"
+                    >
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://www.skype.com"
+                      class="tooltips"
+                      data-toggle="tooltip"
+                      data-placement="top"
+                      title=""
+                      data-original-title="Skype"
+                    >
+                      <i class="fa fa-skype"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://www.googleplus.com"
+                      class="tooltips"
+                      data-toggle="tooltip"
+                      data-placement="top"
+                      title=""
+                      data-original-title="Google Plus"
+                    >
+                      <i class="fa fa-google-plus"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://www.linkedin.com"
+                      class="tooltips"
+                      data-toggle="tooltip"
+                      data-placement="top"
+                      title=""
+                      data-original-title="Linkedin"
+                    >
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://www.Pinterest.com"
+                      class="tooltips"
+                      data-toggle="tooltip"
+                      data-placement="top"
+                      title=""
+                      data-original-title="Pinterest"
+                    >
+                      <i class="fa fa-pinterest"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://www.twitter.com"
+                      class="tooltips"
+                      data-toggle="tooltip"
+                      data-placement="top"
+                      title=""
+                      data-original-title="Twitter"
+                    >
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- End Social Links -->
+            </div>
+          </div>
+        </div>
+        <!--/copyright-->
+      </div>
+      <!--=== End Footer ===-->
+    </div>
+    <!--/wrapper-->
+
+    <!-- Java scripts -->
+    <script
+      type="text/javascript"
+      src="assets/plugins/jquery/jquery.min.js"
+    ></script>
+    <script type="text/javascript">
+      function showMsg(flag) {
+        if (flag == 0) {
+          $(".successBox").css("display", "block");
+        } else {
+          $(".successBox").css("display", "none");
+        }
+      }
+    </script>
+  </body>
+</html>
